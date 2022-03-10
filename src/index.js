@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Memorize } from './Components/06-memo/Memorize';
+import { MemoHook } from './Components/06-memo/MemoHook';
 
-
+//import { Memorize } from './Components/06-memo/Memorize';
 //import { Layout } from './Components/05-UseLayoutEffect/LayoutEffect';
 //import { RealExampleRef } from './Components/04-UseRef/RealExampleRef';
 //import { FocusScreen } from './Components/04-UseRef/FocusScreen';
@@ -17,7 +17,7 @@ import { Memorize } from './Components/06-memo/Memorize';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Memorize />
+    <MemoHook />
   </React.StrictMode>,
   document.getElementById('root')
 );
