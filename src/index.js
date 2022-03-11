@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { MemoHook } from './Components/06-memo/MemoHook';
+import { Father } from './Components/07-tarea-memo/Father';
 
+
+// import { CallbackHook } from './Components/06-memo/CallbackHook';
+//import { MemoHook } from './Components/06-memo/MemoHook';
 //import { Memorize } from './Components/06-memo/Memorize';
 //import { Layout } from './Components/05-UseLayoutEffect/LayoutEffect';
 //import { RealExampleRef } from './Components/04-UseRef/RealExampleRef';
@@ -17,7 +20,7 @@ import { MemoHook } from './Components/06-memo/MemoHook';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MemoHook />
+    <Father />
   </React.StrictMode>,
   document.getElementById('root')
 );
