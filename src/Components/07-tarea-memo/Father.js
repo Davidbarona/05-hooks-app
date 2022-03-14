@@ -1,6 +1,8 @@
 import React, { useCallback } from 'react'
 import { Children } from './Children'
 import { useState } from 'react';
+
+
 import '../02-UseEffect/SimpleForm.css'
 
 export const Father = () => {
@@ -12,7 +14,7 @@ export const Father = () => {
     //     setValor( valor + num )
     // }
 
-    const increment = useCallback( (num) =>{
+    const incrementar = useCallback( (num) =>{
         setValor( c => c + num )
     },[setValor])
 
@@ -20,7 +22,7 @@ export const Father = () => {
     return (
         <div>
             <h1>Padre</h1>
-            <p> Total: { valor } </p>
+            <p> Total: {valor}  </p>
 
             <hr />
 
@@ -29,7 +31,7 @@ export const Father = () => {
                     <Children 
                         key={ n }
                         numero={ n }
-                        increment={ increment }
+                        incrementar={ incrementar }
                     />
                 ))
             }
