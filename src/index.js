@@ -1,8 +1,9 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import { Father } from './Components/07-tarea-memo/Father';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
+import { TodoApp } from './Components/08-UseReducer/TodoApp';
 
+// // import { Father } from './Components/07-tarea-memo/Father';
 // // import { CallbackHook } from './Components/06-memo/CallbackHook';
 // //import { MemoHook } from './Components/06-memo/MemoHook';
 // //import { Memorize } from './Components/06-memo/Memorize';
@@ -18,12 +19,11 @@
 // // import { HooksApp } from './HooksApp';
 
 
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <Father />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
+ReactDOM.render(
+  <React.StrictMode>
+    <TodoApp />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
 
-import './Components/08-UseReducer/intro-reducer'
