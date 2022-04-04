@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { MainApp } from './Components/09-useContext/MainApp';
 
-import { TodoApp } from './Components/08-UseReducer/TodoApp';
 
+// import { TodoApp } from './Components/08-UseReducer/TodoApp';
 // // import { Father } from './Components/07-tarea-memo/Father';
 // // import { CallbackHook } from './Components/06-memo/CallbackHook';
 // //import { MemoHook } from './Components/06-memo/MemoHook';
@@ -21,7 +22,7 @@ import { TodoApp } from './Components/08-UseReducer/TodoApp';
 
 ReactDOM.render(
   <React.StrictMode>
-    <TodoApp />
+    <MainApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
